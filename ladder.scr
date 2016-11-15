@@ -1,0 +1,462 @@
+lv=60;co=4;wt=2
+place point;xy=0,0,0
+
+lv=2;co=0;wt=0
+place shape;xy=0,0,0.095;dl=1;dl=,0.430;dl=-1;dl=,-0.430
+
+choose element;xy=0.5,0,0.095
+construct surface projection
+xy=0,0,1
+dl=,,0.08
+
+choose element;xy=0.5,0,0.095
+copy;xy=0,0,0
+dl=0,0.250,0.175
+copy;xy=0,0,0
+dl=0,0.250,0.175
+copy;xy=0,0,0
+dl=0,0.250,0.175
+copy;xy=0,0,0
+dl=0,0.250,0.175
+
+
+
+lv=3;co=164
+view=top
+
+place circle;xy=0.94,0.05,0.175;dl=0.015
+choose element;xy=0.94,0.05,0.175
+construct surface projection
+xy=0,0,0
+dl=,,0.62
+choose element;xy=0.94,0.05,0.175
+copy;xy=0,0,0
+dl=0,1.35,0.875
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.83,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+copy;xy=0,0,0
+dl=0.33,0,0
+
+place circle;xy=0.04,0.38,0;dl=0.015
+choose element;xy=0.04,0.38,0
+construct surface projection
+xy=0,0,0
+dl=,,0.27
+
+place circle;xy=0.04,0.33,0;dl=0.015
+choose element;xy=0.04,0.33,0
+construct surface projection
+xy=0,0,0
+dl=,,0.27
+
+place circle;xy=0.94,0.38,0;dl=0.015
+choose element;xy=0.94,0.38,0
+construct surface projection
+xy=0,0,0
+dl=,,0.27
+
+place circle;xy=0.94,0.33,0;dl=0.015
+choose element;xy=0.94,0.33,0
+construct surface projection
+xy=0,0,0
+dl=,,0.99
+
+place circle;xy=0.04,0.63,0.35;dl=0.015
+choose element;xy=0.04,0.63,0.35
+construct surface projection
+xy=0,0,0
+dl=,,0.095
+
+choose element;xy=0.04,0.63,0.35
+copy;xy=0,0,0
+dl=0,0.25,0.175
+copy;xy=0,0,0
+dl=0,0.25,0.175
+
+place circle;xy=0.04,0.58,0.35;dl=0.015
+choose element;xy=0.04,0.58,0.35
+construct surface projection
+xy=0,0,0
+dl=,,0.095
+
+choose element;xy=0.04,0.58,0.35
+copy;xy=0,0,0
+dl=0,0.25,0.175
+copy;xy=0,0,0
+dl=0,0.25,0.175
+
+place circle;xy=0.94,0.63,0.35;dl=0.015
+choose element;xy=0.94,0.63,0.35
+construct surface projection
+xy=0,0,0
+dl=,,0.095
+
+choose element;xy=0.94,0.63,0.35
+copy;xy=0,0,0
+dl=0,0.25,0.175
+copy;xy=0,0,0
+dl=0,0.25,0.175
+
+place circle;xy=0.94,0.58,0.35;dl=0.015
+choose element;xy=0.94,0.58,0.35
+construct surface projection
+xy=0,0,0
+dl=,,0.795
+
+choose element;xy=0.94,0.58,0.35
+copy;xy=0,0,0
+dl=0,0.25,0.175
+copy;xy=0,0,0
+dl=0,0.25,0.175
+
+
+view=right
+lv=4;co=0
+place shape;xy=0.91,0,0.75;dl=0,1.390,0.92;dl=0.06,0,0;dl=0,-1.390,-0.92;close
+choose element;xy=0.91,0.1,0.96
+copy;xy=0,0,0
+dl=0,0,0.05
+
+
+place shape;xy=2.728,1.368,1.67;dl=5.255;dl=,0.06;dl=-5.255;close
+view=front
+xy=100,100,100
+choose element;xy=3,1.368,1.67
+construct surface projection
+xy=0,0,0
+dl=,,0.05
+
+view=front
+choose element;xy=1.5,1.390,1.67
+
+set levels on 2,3
+view=right
+xy=100,100,100
+
+construct surface edge
+xy=0.91,0.695,1.21
+xy=0.91,1.39,1.72
+xy=100,100,100
+xy=100,100,100
+
+
+view=front
+xy=100,100,100
+place shape;xy=0.91,1.428,1.67;dl=0,-0.06;dl=1.05,0,0;dl=0,0.06;dl=-1.05
+choose element;xy=1.5,1.428,1.67
+copy;xy=0,0,0
+dl=0,0,0.05
+
+xy=100,100,100
+
+construct surface edge
+xy=1.5,1.428,1.67
+xy=1.5,1.428,1.72
+xy=100,100,100
+xy=100,100,100
+
+view=top
+xy=100,100,100
+
+lv=5;co=112
+place shape;xy=0,2.35,0.85;dl=,-1;dl=8;dl=,1;dl=-8
+choose element;xy=0,2.35,0.85
+construct surface projection
+xy=0.2
+dl=,,0.2
+
+lv=6;co=0
+place shape;xy=1.9,1.35,1.145;dl=0.9,0,0;dl=0,-0.43,0;dl=-0.9,0.20,0;dl=0,0.23,0
+
+choose element;xy=1.9,1.18,1.145
+construct surface projection
+xy=,,0.08
+dl=,,0.08
+
+view=right
+aa=-12.4
+choose element;xy=1.9,1.18,1.145
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+
+
+lv=7;co=164
+place circle;xy=1.94,1.31,1.145;dl=0.015
+choose element;xy=1.94,1.31,1.145
+construct surface projection;xy=0,0,0;dl=0,0,-1.145
+
+place circle;xy=1.94,1.16,1.32;dl=0.015
+choose element;xy=1.94,1.16,1.32
+construct surface projection;xy=0,0,0;dl=0,0,-1.32
+
+place circle;xy=2.76,1.31,1.145;dl=0.015
+choose element;xy=2.76,1.31,1.145
+construct surface projection;xy=0,0,0;dl=0,0,-1.145
+
+place circle;xy=2.74,0.97,1.32;dl=0.015
+choose element;xy=2.74,0.97,132
+construct surface projection;xy=0,0,0;dl=0,0,-1.32
+
+place circle;xy=2.75,1.025,1.225;dl=0.015
+choose element;xy=2.75,1.025,1.225
+construct surface projection;xy=0,0,0;dl=0,0,0.795
+
+
+
+place circle;xy=1.9074,1.0568,1.4;dl=0.015
+choose element;xy=1.9074,1.0568,1.4
+construct surface projection;xy=0,0,0;dl=0,0,0.795
+
+
+
+choose element;xy=2.75,1.025,1.225
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+
+
+
+place circle;xy=2.648,0.6994,1.4;dl=0.015
+choose element;xy=2.648,0.6994,1.4
+construct surface projection;xy=0,0,0;dl=0,0,0.095
+
+
+
+choose element;xy=2.648,0.6994,1.4
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+
+
+
+
+place circle;xy=1.8529,0.9637,1.575;dl=0.015
+choose element;xy=1.8529,0.9637,1.575
+construct surface projection;xy=0,0,0;dl=0,0,0.095
+
+choose element;xy=1.8529,0.9637,1.575
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+aa=-24.8
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.35
+aa=-12.4
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+aa=-24.8
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.35
+aa=-12.4
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+aa=-24.8
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.35
+aa=-12.4
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+
+
+
+aa=-36
+choose element;xy=1.9074,1.0568,1.4
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.525
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.525
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.525
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.525
+
+
+lv=8;co=0
+set levels off 2,3,4,5,6,7
+xy=100,100,100
+
+aa=-12.4
+place shape;xy=2.79,1.368,1.67;dl=-0.06;dl=-0.0103,-0.3,0.18;dl=0.06;close
+choose element;xy=2.79,1.368,1.67
+construct surface projection;xy=0,0,0;dl=,,0.05
+choose element;xy=2.79,1.368,1.67
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.275
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+
+
+
+place shape;xy=1.96,1.368,1.67;dl=-0.06;dl=0.015,-0.11,0.179;dl=0.06;close
+choose element;xy=1.96,1.368,1.67
+construct surface projection;xy=0,0,0;dl=,,0.095
+choose element;xy=1.96,1.368,1.67
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+rotate copy;xy=1.45,1.26
+move;xy=,,1;dl=,,0.175
+
+choose element;xy=2.79,1.368,1.67
+delete element
+place shape;xy=2.79,1.368,1.67;dl=-0.06;dl=-0.0103,-0.3,0.29;dl=0.06;close
+choose element;xy=2.79,1.368,1.67
+construct surface projection;xy=0,0,0;dl=,,0.06
+
+set levels on 2,3,4,5,6,7
+xy=100,100,100
+
